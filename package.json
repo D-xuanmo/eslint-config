@@ -1,0 +1,30 @@
+{
+  "name": "@xuanmo/eslint-config-xuanmo",
+  "version": "0.0.3",
+  "homepage": "https://github.com/D-xuanmo/eslint-config",
+  "repository": "git@github.com:D-xuanmo/eslint-config.git",
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "format": "prettier --cache --write ."
+  },
+  "devDependencies": {
+    "@xuanmo/prettier-config": "latest",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  },
+  "prettier": "@xuanmo/prettier-config",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xuanmo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/D-xuanmo/eslint-config",
   "repository": "git@github.com:D-xuanmo/eslint-config.git",
   "packageManager": "yarn@3.5.1",

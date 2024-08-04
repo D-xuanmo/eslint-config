@@ -3,7 +3,10 @@ module.exports = {
     MyGlobal: true
   },
   parserOptions: {
-    parser: '@typescript-eslint/parser'
+    parser: '@typescript-eslint/parser',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   plugins: ['@typescript-eslint', 'prettier'],
   extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
@@ -26,6 +29,7 @@ module.exports = {
     ],
 
     // ts
+    '@typescript-eslint/no-non-null-asserted-optional-chain': 0,
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/no-explicit-any': 0,
